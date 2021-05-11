@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+
+html {
+  font-size: 62.5%;
+}
+.search-form{
+  min-height: 10vh; 
+  display: flex; 
+  justify-content: center;
+  align-items:center; 
+}
+
+.search-bar{
+  width:50%; 
+  border: none; 
+  padding: 10px; 
+}
+
+.search-button{
+background: lightcoral; 
+border: none; 
+padding: 10px 20px; 
+color: white; 
+}
+
+.recipes{
+  display:flex; 
+  justify-content:space-around;
+  flex-wrap: wrap;
+  color:purple; 
+  font-size: 3vh;
+}
+
+h1 {
+  font-size: 6vh;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  color: purple;
+  text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
+  text-transform: uppercase;
+  margin: 4rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
